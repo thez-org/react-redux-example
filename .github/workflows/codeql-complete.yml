@@ -3,6 +3,7 @@ name: "CodeQL - Complete analysis"
 on:
   schedule:
     - cron: '44 23 11 * *' # Run CodeQL scan on a day of every month at 11:44 PM UTC
+  workflow_dispatch:
     
 jobs:
   analyze:
